@@ -1,0 +1,35 @@
+.bgvideo {
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.bgvideo video {
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.video-text {
+    color: rgb(65, 47, 233);
+    z-index: 2;
+    padding-top: 2rem;
+    padding-inline: 9rem;
+}
+@media(max-width:900px) {
+    .video-text {
+        padding-inline: 2.5rem;
+        padding-top: 1.5rem;
+    }
+}
+@media (max-width: 600px) {
+    .video-text {
+        padding-inline: 1rem;
+        padding-top: 1rem;
+    }
+}

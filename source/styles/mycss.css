@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(180deg, #7bb6f4 0%, #0b137f 0%, #71ec3c 50%, #e19006 99%);
+}
+.nav-link{
+    color: rgb(32, 235, 167);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(96, 98, 109);
+}
+.navbar-brand img {
+    width: 35px;
+}
+.navbar {
+    --bs-navbar-padding-y: 0rem;
+}
+.navbar-toggler {
+    color: rgb(32, 235, 167);
+    background-color: rgb(96, 98, 109);
+}
+.card-body p {
+    padding: 0;
+    margin: 0;
+}
+.card img {
+    height: 12rem;
+}
+.name-card {
+    height: 5rem;
+    margin-top: 1rem;
+}
+.card-font {
+    height: 10.5rem;
+}
+.card {
+    height: 33rem;
+    background-color:beige;
+}
+.side-bar {
+    color: aqua;
+    margin-top: 1rem;
+}
+.footer-text {
+    margin: auto auto;
+    color: rgb(0, 8, 8);
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    margin-top: 1.5rem;
+}
+.main-font1, .contact-font {
+    color: aqua;
+}
+.conta {
+    color: aqua;
+}
+@media(max-width:900px) {
+    .video>iframe {
+        height: 450px;
+    }
+    .video1 {
+        height: 495px;
+    }
+}
+@media (max-width: 600px) {
+    .video>iframe {
+        height: 290px;
+    }
+    .video1 {
+        height: 335px;
+    }
+}
